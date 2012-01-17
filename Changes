@@ -1,0 +1,4 @@
+Revision history for Perl extension Plack::Middleware::Session::RemoveCookies
+
+{{$NEXT}}
+    - Initial release
