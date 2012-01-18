@@ -1,4 +1,6 @@
 Revision history for Perl extension Plack::Middleware::Session::RemoveCookies
 
 {{$NEXT}}
+
+0.01      2012-01-18 00:22:54 Europe/Vienna
     - Initial release
