@@ -38,6 +38,10 @@ __END__
         $_[0]->{'HTTP_X_DO-NOT-TRACK'} || $_[0]->{'HTTP_DNT'}
     } 'Session::RemoveCookies', key => qr{plack_session}i;
 
+=head1 DESCRIPTION
+
+This middleware allows to remove cookies from the requests which is useful with L<Plack::App::Proxy>.
+
 =head1 ACKNOWLEDGMENT
 
 Initial development sponsored by 123people Internetservices GmbH - L<http://www.123people.com/>
