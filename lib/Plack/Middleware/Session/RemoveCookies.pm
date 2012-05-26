@@ -5,10 +5,9 @@ use strict;
 use warnings;
 use Plack::Request;
 use HTTP::Headers::Util qw(join_header_words);
+use Plack::Util::Accessor 'key';
 
 use parent 'Plack::Middleware';
-
-__PACKAGE__->mk_accessors('key');
 
 sub call {
   my ( $self, $env ) = @_;
