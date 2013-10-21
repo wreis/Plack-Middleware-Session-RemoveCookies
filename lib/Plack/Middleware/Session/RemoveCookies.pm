@@ -1,6 +1,8 @@
 package Plack::Middleware::Session::RemoveCookies;
 # ABSTRACT: remove cookies from the requests
 
+# VERSION
+
 use strict;
 use warnings;
 use Plack::Request;
