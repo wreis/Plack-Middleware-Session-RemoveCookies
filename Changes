@@ -1,6 +1,7 @@
 Revision history for Perl extension Plack::Middleware::Session::RemoveCookies
 
 {{$NEXT}}
+    - Update dzil setup
 
 0.011     2012-05-26 18:05:44 Europe/Vienna
     - Add DESCRIPTION section
